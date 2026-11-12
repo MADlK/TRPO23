@@ -34,7 +34,7 @@
   {
     "ContainingType": "MAD_TRPO23.Controllers.TaskController",
     "Method": "GetMyTasks",
-    "RelativePath": "api/v1/Task",
+    "RelativePath": "api/v1/tasks",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,7 +44,7 @@
   {
     "ContainingType": "MAD_TRPO23.Controllers.TaskController",
     "Method": "AddTask",
-    "RelativePath": "api/v1/Task",
+    "RelativePath": "api/v1/tasks",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -60,7 +60,7 @@
   {
     "ContainingType": "MAD_TRPO23.Controllers.TaskController",
     "Method": "GetTask",
-    "RelativePath": "api/v1/Task/{id}",
+    "RelativePath": "api/v1/tasks/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -76,7 +76,7 @@
   {
     "ContainingType": "MAD_TRPO23.Controllers.TaskController",
     "Method": "EditTask",
-    "RelativePath": "api/v1/Task/{id}",
+    "RelativePath": "api/v1/tasks/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -97,7 +97,7 @@
   {
     "ContainingType": "MAD_TRPO23.Controllers.TaskController",
     "Method": "DeleteTask",
-    "RelativePath": "api/v1/Task/{id}",
+    "RelativePath": "api/v1/tasks/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -113,7 +113,7 @@
   {
     "ContainingType": "MAD_TRPO23.Controllers.TaskController",
     "Method": "GetAllTasks",
-    "RelativePath": "api/v1/Task/all",
+    "RelativePath": "api/v1/tasks/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

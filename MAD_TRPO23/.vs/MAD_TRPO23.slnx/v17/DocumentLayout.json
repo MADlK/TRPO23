@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\st310-09\\desktop\\trpo23\\mad_trpo23\\mad_trpo23\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\st310-09\\desktop\\trpo23\\mad_trpo23\\mad_trpo23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\st310-09\\desktop\\trpo23\\mad_trpo23\\mad_trpo23\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\st310-09\\desktop\\trpo23\\mad_trpo23\\mad_trpo23\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\st310-09\\desktop\\trpo23\\mad_trpo23\\mad_trpo23\\models\\madtrpo23context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\models\\madtrpo23context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\st310-09\\desktop\\trpo23\\mad_trpo23\\mad_trpo23\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\st310-09\\desktop\\trpo23\\mad_trpo23\\mad_trpo23\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B96C5894-DF91-F499-2A0C-C8FC02C795C2}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T04:43:16.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\appsettings.json",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\appsettings.json",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\appsettings.json",
+              "RelativeToolTip": "MAD_TRPO23\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T04:43:09.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Models\\Task.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T04:43:08.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\Auth.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Controllers\\Auth.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\Auth.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Controllers\\Auth.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T04:32:38.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Models\\User.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T04:39:31.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Program.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Program.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Program.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAD8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T04:14:27.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MadTrpo23Context.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T04:14:13.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 427,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

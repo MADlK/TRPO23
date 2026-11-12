@@ -39,6 +39,7 @@ namespace MAD_TRPO23.Controllers
             user.PasswordHash = _hasher.HashPassword(user, request.Password);
 
             _context.Users.Add(user);
+
             _context.SaveChanges();
             return Ok("Пользователь зарегистрирован");
 
@@ -71,7 +72,7 @@ namespace MAD_TRPO23.Controllers
             var claims = new[]
             {
                 new Claim(ClaimTypes.Name, user.Login),
-                new Claim(ClaimTypes.Role, "User")
+                new Claim(ClaimTypes.Role, user.Role)
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
 

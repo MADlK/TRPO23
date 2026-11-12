@@ -19,7 +19,8 @@ builder.Services.AddSingleton<List<User>>();
 builder.Services.AddSingleton<IPasswordHasher<User>, PasswordHasher<User>>();
 var key = builder.Configuration["Jwt:Key"]
     ?? throw new Exception("не задан секретный ключ джвт");
-if(Encoding.UTF8.GetByteCount(key) != 32)
+
+if(Encoding.UTF8.GetByteCount(key) < 32)
     throw new Exception("джвт короткий");
 builder.Services
     .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -33,8 +34,7 @@ builder.Services
             ValidAudience = "ExampleApiClient",
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(
-        Encoding.UTF8.GetBytes(key) ),
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key) ),
             ClockSkew = TimeSpan.Zero
         };
 

@@ -67,7 +67,7 @@
         }
       }
     },
-    "/api/v1/Task": {
+    "/api/v1/tasks": {
       "get": {
         "tags": [
           "Task"
@@ -108,7 +108,7 @@
         }
       }
     },
-    "/api/v1/Task/all": {
+    "/api/v1/tasks/all": {
       "get": {
         "tags": [
           "Task"
@@ -120,7 +120,7 @@
         }
       }
     },
-    "/api/v1/Task/{id}": {
+    "/api/v1/tasks/{id}": {
       "get": {
         "tags": [
           "Task"

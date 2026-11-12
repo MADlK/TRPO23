@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MAD_TRPO23.Controllers;
 
-[Route("api/v1/[controller]")]
+[Route("api/v1/tasks")]
 [ApiController]
 [Authorize]
 public class TaskController : ControllerBase
@@ -52,7 +52,7 @@ public class TaskController : ControllerBase
             return NotFound();
 
         if (!User.IsInRole("Admin") && task.OwnerLogin != User.Identity?.Name)
-            return Forbid();
+            return Unauthorized();
 
         return Ok(task);
     }
@@ -73,7 +73,7 @@ public class TaskController : ControllerBase
         _context.Tasks.Add(task);
         _context.SaveChanges();
 
-        return Ok(task);
+        return Created(task);
     }
 
     [HttpPut("{id:int}")]
@@ -84,7 +84,7 @@ public class TaskController : ControllerBase
             return NotFound();
 
         if (!User.IsInRole("Admin") && task.OwnerLogin != User.Identity?.Name)
-            return Forbid();
+            return Unauthorized();
 
         task.Title = request.Title;
         task.Description = request.Description;
