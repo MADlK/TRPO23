@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\m20er\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\mad_trpo23\\mad_trpo23\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\m20er\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\mad_trpo23\\mad_trpo23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\m20er\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\mad_trpo23\\mad_trpo23\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|c:\\users\\m20er\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\mad_trpo23\\mad_trpo23\\models\\madtrpo23context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320628BE-155B-49DD-A7E9-F325D1DA9436}|MAD_TRPO23\\MAD_TRPO23.csproj|solutionrelative:mad_trpo23\\models\\madtrpo23context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T23:38:05.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\Auth.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Controllers\\Auth.cs",
+              "ToolTip": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Controllers\\Auth.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Controllers\\Auth.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T22:11:54.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Program.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Program.cs",
+              "ToolTip": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Program.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T22:37:50.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MadTrpo23Context.cs",
+              "DocumentMoniker": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "RelativeDocumentMoniker": "MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "ToolTip": "C:\\Users\\m20er\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MAD_TRPO23\\MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "RelativeToolTip": "MAD_TRPO23\\Models\\MadTrpo23Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T22:33:53.803Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+﻿using MAD_TRPO23.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace MAD_TRPO23.Controllers
+{
+    [Route("api/v1/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class TaskController : ControllerBase
+    {
+        private readonly MadTrpo23Context _context;
+
+        public record CreateTaskRequest(string Title, string Description);
+        public record UpdateTaskRequest(string Title, string Description, bool IsCompleted);
+
+        public TaskController(MadTrpo23Context context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult GetOwnTasks()
+        {
+            var login = User.Identity?.Name;
+            if (string.IsNullOrWhiteSpace(login))
+                return Unauthorized();
+
+            var tasks = _context.Tasks
+                .Where(task => task.OwnerLogin == login)
+                .ToList();
+
+            return Ok(tasks);
+        }
+
+        [HttpGet("all")]
+        [Authorize(Roles = "Admin")]
+        public IActionResult GetAllTasks()
+        {
+            return Ok(_context.Tasks.ToList());
+        }
+
+        [HttpGet("{id:int}")]
+        public IActionResult GetTaskById(int id)
+        {
+            var task = _context.Tasks.Find(id);
+            if (task == null)
+                return NotFound();
+
+            if (!CanAccess(task))
+                return Forbid();
+
+            return Ok(task);
+        }
+
+        [HttpPost]
+        public IActionResult CreateTask(CreateTaskRequest request)
+        {
+            var login = User.Identity?.Name;
+            if (string.IsNullOrWhiteSpace(login))
+                return Unauthorized();
+
+            var task = new Models.Task
+            {
+                Title = request.Title,
+                Description = request.Description,
+                OwnerLogin = login,
+                IsCompleted = false
+            };
+
+            _context.Tasks.Add(task);
+            _context.SaveChanges();
+
+            return CreatedAtAction(nameof(GetTaskById), new { id = task.Id }, task);
+        }
+
+        [HttpPut("{id:int}")]
+        public IActionResult UpdateTask(int id, UpdateTaskRequest request)
+        {
+            var task = _context.Tasks.Find(id);
+            if (task == null)
+                return NotFound();
+
+            if (!CanAccess(task))
+                return Forbid();
+
+            task.Title = request.Title;
+            task.Description = request.Description;
+            task.IsCompleted = request.IsCompleted;
+            _context.SaveChanges();
+
+            return Ok(task);
+        }
+
+        [HttpDelete("{id:int}")]
+        public IActionResult DeleteTask(int id)
+        {
+            var task = _context.Tasks.Find(id);
+            if (task == null)
+                return NotFound();
+
+            if (!CanAccess(task))
+                return Forbid();
+
+            _context.Tasks.Remove(task);
+            _context.SaveChanges();
+
+            return NoContent();
+        }
+
+        private bool CanAccess(Models.Task task)
+        {
+            return User.IsInRole("Admin") || task.OwnerLogin == User.Identity?.Name;
+        }
+    }
+}

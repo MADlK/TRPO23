@@ -1,0 +1,37 @@
+﻿using MAD_TRPO23.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace MAD_TRPO23.Controllers
+{
+    [Route("api/v1/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class TaskController : ControllerBase
+    {
+        private readonly MadTrpo23Context _context;
+
+        public TaskController(MadTrpo23Context context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult GetTasks()
+        {
+            if (User.IsInRole("Admin"))
+                return Ok(_context.Tasks.ToList());
+
+            var login = User.Identity?.Name;
+            if (string.IsNullOrWhiteSpace(login))
+                return Unauthorized();
+
+            var tasks = _context.Tasks
+                .Where(task => task.OwnerLogin == login)
+                .ToList();
+
+            return Ok(tasks);
+        }
+    }
+}
