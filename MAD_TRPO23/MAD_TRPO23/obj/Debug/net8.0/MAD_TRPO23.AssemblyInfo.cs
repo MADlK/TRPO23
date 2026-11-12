@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAD_TRPO23")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4548833abe22abc9a4f00d6f7f1e69540faa65c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAD_TRPO23")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAD_TRPO23")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

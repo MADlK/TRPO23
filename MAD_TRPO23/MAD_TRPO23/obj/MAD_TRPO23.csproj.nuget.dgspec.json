@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj": {}
+    "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj": {
+    "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj",
+        "projectUniqueName": "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj",
         "projectName": "MAD_TRPO23",
-        "projectPath": "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj",
+        "projectPath": "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\MAD_TRPO23.csproj",
         "packagesPath": "C:\\Users\\m20er\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\MAD_TRPO23\\MAD_TRPO23\\obj\\",
+        "outputPath": "C:\\Users\\m20er\\OneDrive\\Рабочий стол\\TRPO23\\MAD_TRPO23\\MAD_TRPO23\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
